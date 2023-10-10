@@ -5,14 +5,16 @@ body{
 header{
     background-color: #0a2657;
 }
-
+.logo{
+    width: 80px;
+}
 nav a{
     text-decoration: none;
     text-align: center;
     color: white;
 }
 nav a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
     background-color: #ffa40f;
 }
@@ -23,13 +25,13 @@ nav a:hover{
     text-decoration: none;
 }
 .book:hover, .join:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     background-color: #0a2657;
 }
 
 #hero-img{
-width: 100%;
+    width: 100%;
 }
 
 .home-title{
