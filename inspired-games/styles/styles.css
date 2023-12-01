@@ -3,9 +3,15 @@
 
 /* home page css */
 
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto
+}
 body{
     font-family: "Righteous", Arial, sans-serif;
     background-color: #151415;
+    /* background-color: #ffffff; */
     margin: 0;
     padding: 0;
 }
@@ -103,9 +109,10 @@ nav a:hover{
     box-shadow: 5px 5px 10px #000000;
 }
 .download-button{
-    font-size: 18px;
-    color: #e50675;
-    background-color: #333333;
+    font-family: "Righteous";
+    font-size: 30px;
+    color: #000000;
+    background-color: #e50675;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -145,6 +152,7 @@ nav a:hover{
     text-align:center;
 }
 .about-us-home-page p{
+    text-align: left;
     font-family: "DM Mono";
     line-height: 40px;
     color: #ffffff;
@@ -195,5 +203,134 @@ footer .social img{
     padding: 10px;
 }
 footer p{
+    font-size: 25px;
+}
+
+footer a{
+    text-decoration: none;
+}
+.not-working-a{
+    text-decoration: underline;
+}
+/* about us page */
+
+.welcome-msg-about-page{
+    color: #e50675;
+    margin-top: 60px;
+    grid-column: 2/13;
+    grid-row: 1/2;
+    text-align: center;
+    
+}
+.welcome-msg-about-page-h2{
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    grid-column: 2/13;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 25px;
+}
+.accordion {
+    font-family: "Righteous";
+    background-color: #e50675;
+    color: #151415;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: solid 5px #151415;
+    font-size: 40px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ffffff;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #151415;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #333333;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .panel img{
+    width: 50%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #000000;
+  }
+  .panel p{
+    /* padding: 10px;
+    background-color: #1c1c1c; */
+    font-family: "DM Mono";
+
+    color: #ffffff;
+    font-size: 30px;
+  }
+  .panel a{
+    padding: 5px;
+    text-decoration: none;
+    background-color: #494949;
+    font-size: 30px;
+  }
+  .accordion-box{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+
+.about-us-grid-sections{
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    grid-template-columns: 1fr;
+}  
+
+  .who-we-are-section{
+    background-color: #333333;
+    grid-column: 1/2;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px auto;
+  }
+
+.who-we-are-section h3{
+    font-size: 50px;
+    color: #e50675;
+}
+.who-we-are-section h4{
+    font-size: 25px;
+    color: #ffffff;
+}
+.who-we-are-section hr{
+    border: 5px solid #151415;
+    border-radius: 3px;
+    width: 50%;
+    text-align:center;
+}
+.who-we-are-section p{
+    text-align: left;
+    font-family: "DM Mono";
+    line-height: 40px;
+    color: #ffffff;
+    padding: 15px;
     font-size: 25px;
 }
