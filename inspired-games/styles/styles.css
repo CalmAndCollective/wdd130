@@ -311,7 +311,7 @@ footer a{
     grid-column: 1/2;
     text-align: center;
     margin-top: 100px;
-    margin-right: 100px auto;
+    /* margin-right: 100px auto; */
   }
 
 .who-we-are-section h3{
@@ -416,7 +416,7 @@ footer a{
     grid-row: 4/5;
     text-align: center;
     margin-top: 100px;
-    margin-right: 100px auto;
+    /* margin-right: 100px auto; */
   }
 
 .no-fear-section h3{
@@ -475,7 +475,6 @@ footer a{
         margin: 50px auto;
         width: 60%;
     }
-
     .about-us-home-page{
         width: 80%;
         display: block;
