@@ -38,15 +38,16 @@ nav{
     justify-content: space-around;
 }
 nav a{
+    align-self: center;
     text-decoration: none;
     text-align: center;
-    color: #e50675;
+    color: #FE6CC9;
     padding: 35px;
 }
 nav a:hover{
     text-decoration: none;
-    color: #ffffff;
-    background-color: #e50675;
+    color: #000000;
+    background-color: #FE6CC9;
 }
 
 #teaser{
@@ -90,7 +91,7 @@ nav a:hover{
     grid-column: 2/13;
     grid-row: 1/2;
     text-align: center;
-    color: #e50675;
+    color: #FE6CC9;
 }
 .coordination-correction-card, .relentless-running-card{
     margin: 50px 0;
@@ -113,7 +114,7 @@ nav a:hover{
     font-family: "Righteous";
     font-size: 30px;
     color: #000000;
-    background-color: #e50675;
+    background-color: #FE6CC9;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -144,7 +145,7 @@ nav a:hover{
 }
 .about-us-home-page h3{
     font-size: 30px;
-    color: #e50675;
+    color: #FE6CC9;
 }
 .about-us-home-page hr{
     border: 5px solid #151415;
@@ -170,7 +171,7 @@ nav a:hover{
 .check-out-home-page h3{
     font-size: 30px;
 
-    color: #e50675;
+    color: #FE6CC9;
 }
 .check-out-home-page hr{
     border: 5px solid #151415;
@@ -217,7 +218,7 @@ footer a{
 /* about us page */
 
 .welcome-msg-about-page{
-    color: #e50675;
+    color: #FE6CC9;
     margin-top: 60px;
     grid-column: 2/13;
     grid-row: 1/2;
@@ -235,7 +236,7 @@ footer a{
 }
 .accordion {
     font-family: "Righteous";
-    background-color: #e50675;
+    background-color: #FE6CC9;
     color: #151415;
     cursor: pointer;
     padding: 18px;
@@ -316,7 +317,7 @@ footer a{
 
 .who-we-are-section h3{
     font-size: 50px;
-    color: #e50675;
+    color: #FE6CC9;
 }
 .who-we-are-section h4{
     font-size: 25px;
@@ -351,7 +352,7 @@ footer a{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    color: #e50675;
+    color: #FE6CC9;
 }
 
 .coordination-correction-download{
@@ -365,7 +366,7 @@ footer a{
     font-family: "Righteous";
     font-size: 30px;
     color: #000000;
-    background-color: #e50675;
+    background-color: #FE6CC9;
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 5px;
@@ -421,7 +422,7 @@ footer a{
 
 .no-fear-section h3{
     font-size: 50px;
-    color: #e50675;
+    color: #FE6CC9;
 }
 .no-fear-section h4{
     font-size: 25px;
